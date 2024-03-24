@@ -1,0 +1,389 @@
+[
+    {
+        "ID": "52IB11920622",
+        "Name": "Pyjama bé trai họa tiết con voi",
+        "Price": 349000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/Pyjama/1.webp",
+            "img/betrai/Pyjama/2.webp",
+            "img/betrai/Pyjama/3.webp",
+            "img/betrai/Pyjama/4.webp"
+        ],
+        "BST": ["Đồ mặc ở nhà bé trai", "BST DREAM IN THE CLOUDS"]
+    },
+    {
+        "ID": "30IB09670622",
+        "Name": "Quần short kaki phối túi gió",
+        "Price": 189000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/quan_short-kaki-tui-gio/1.webp",
+            "img/betrai/quan_short-kaki-tui-gio/2.webp"
+        ],
+        "BST": ["Đồ mặc ở nhà bé trai"]
+    },
+    {
+        "ID": "34IB09700522",
+        "Name": "Quần thun phối màu",
+        "Price": 149000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/quan_thun/1.webp",
+            "img/betrai/quan_thun/2.webp",
+            "img/betrai/quan_thun/3.webp",
+            "img/betrai/quan_thun/4.webp",
+            "img/betrai/quan_thun/5.webp"
+        ],
+        "BST": ["Đồ mặc ở nhà bé trai"]
+    },
+    {
+        "ID": "34IB10810522",
+        "Name": "Quần nỉ short túi ốp",
+        "Price": 169000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/quan_ni-short/1.webp",
+            "img/betrai/quan_ni-short/2.webp",
+            "img/betrai/quan_ni-short/3.webp",
+            "img/betrai/quan_ni-short/4.webp",
+            "img/betrai/quan_ni-short/5.webp",
+            "img/betrai/quan_ni-short/6.webp",
+            "img/betrai/quan_ni-short/7.webp"
+        ],
+        "BST": ["Đồ mặc ở nhà bé trai", "Đồ mặc đi chơi bé trai", "BST BACK TO SCHOOL"]
+    },
+    {
+        "ID": "20IG11170522",
+        "Name": "Áo phông basic in hình",
+        "Price": 99000,
+        "Type": "Khác",
+        "Image": [
+            "img/other/ao_phong-basic/1.webp",
+            "img/other/ao_phong-basic/2.webp",
+            "img/other/ao_phong-basic/3.webp",
+            "img/other/ao_phong-basic/4.webp",
+            "img/other/ao_phong-basic/5.webp",
+            "img/other/ao_phong-basic/6.webp",
+            "img/other/ao_phong-basic/7.webp",
+            "img/other/ao_phong-basic/8.webp",
+            "img/other/ao_phong-basic/9.webp",
+            "img/other/ao_phong-basic/10.webp",
+            "img/other/ao_phong-basic/11.webp",
+            "img/other/ao_phong-basic/12.webp",
+            "img/other/ao_phong-basic/13.webp"
+        ],
+        "BST": ["Đồ mặc ở nhà bé trai", "Đồ hàng ngày bé gái"]
+    },
+    {
+        "ID": "20IB10700522",
+        "Name": "Áo thun kẻ stick ngực",
+        "Price": 129000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/ao_thun/1.webp",
+            "img/betrai/ao_thun/2.webp"
+        ],
+        "BST": ["Đồ mặc ở nhà bé trai", "Đồ mặc đi chơi bé trai"]
+    },
+    {
+        "ID": "22IB10720622",
+        "Name": "Áo sơ mi cộc tay phối lé",
+        "Price": 229000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/ao_somi-coc-tay/1.webp",
+            "img/betrai/ao_somi-coc-tay/2.webp",
+            "img/betrai/ao_somi-coc-tay/3.webp",
+            "img/betrai/ao_somi-coc-tay/4.webp",
+            "img/betrai/ao_somi-coc-tay/5.webp"
+        ],
+        "BST": ["Đồ mặc đi học bé trai", "Đồ mặc đi chơi bé trai", "BST BACK TO SCHOOL"]
+    },
+    {
+        "ID": "30IB09690622",
+        "Name": "Quần short kaki phối diễu bé trai",
+        "Price": 219000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/quan_short-kaki/1.webp",
+            "img/betrai/quan_short-kaki/2.webp",
+            "img/betrai/quan_short-kaki/3.webp",
+            "img/betrai/quan_short-kaki/4.webp",
+            "img/betrai/quan_short-kaki/5.webp",
+            "img/betrai/quan_short-kaki/6.webp",
+            "img/betrai/quan_short-kaki/7.webp",
+            "img/betrai/quan_short-kaki/8.webp"
+        ],
+        "BST": ["Đồ mặc đi học bé trai", "Đồ mặc đi chơi bé trai", "BST BACK TO SCHOOL"]
+    },
+    {
+        "ID": "20IB10760622",
+        "Name": "Áo sát nách \"Do you know Who you are?\"",
+        "Price": 169000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/ao_sat-nach/1.webp",
+            "img/betrai/ao_sat-nach/2.webp"
+        ],
+        "BST": ["Đồ mặc đi chơi bé trai"]
+    },
+    {
+        "ID": "20IB10160622",
+        "Name": "Áo ba lỗ phối đáp túi",
+        "Price": 179000,
+        "Type": "betrai",
+        "Image": [
+            "img/betrai/ao_balo/1.webp",
+            "img/betrai/ao_balo/2.webp",
+            "img/betrai/ao_balo/3.webp",
+            "img/betrai/ao_balo/4.webp"
+        ],
+        "BST": ["BST BACK TO SCHOOL"]
+    },
+    {
+        "ID": "24IG08270222",
+        "Name": "Áo chống nắng bo gấu",
+        "Price": 299000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/ao_chong-nang/1.webp",
+            "img/begai/ao_chong-nang/2.webp",
+            "img/begai/ao_chong-nang/3.webp",
+            "img/begai/ao_chong-nang/4.webp",
+            "img/begai/ao_chong-nang/5.webp"
+        ],
+        "BST": ["Đồ hàng ngày bé gái", "Đồ mặc đi chơi bé gái"]
+    },
+    {
+        "ID": "21IG10560622",
+        "Name": "Áo polo thêu ngực tay bồng",
+        "Price": 279000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/ao_polo/1.webp",
+            "img/begai/ao_polo/2.webp",
+            "img/begai/ao_polo/3.webp"
+        ],
+        "BST": ["SALE KHỦNG ĐÂU MÙA", "Đồ hàng ngày bé gái", "Đồ mặc đi chơi bé gái", "Đồ mặc đi học bé gái"]
+    },
+    {
+        "ID": "21IG07530122",
+        "Name": "Áo polo đi học cổ sen",
+        "Price": 199000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/ao_polo-di-hoc/1.webp",
+            "img/begai/ao_polo-di-hoc/2.webp",
+            "img/begai/ao_polo-di-hoc/3.webp",
+            "img/begai/ao_polo-di-hoc/3.webp",
+            "img/begai/ao_polo-di-hoc/5.webp",
+            "img/begai/ao_polo-di-hoc/6.webp"
+        ],
+        "BST": ["SALE KHỦNG ĐÂU MÙA", "Đồ hàng ngày bé gái", "Đồ mặc đi học bé gái"]
+    },
+    {
+        "ID": "22IG10310522",
+        "Name": "Áo sơ mi cánh tiên kèm nơ",
+        "Price": 189000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/ao_somi/1.webp",
+            "img/begai/ao_somi/2.webp",
+            "img/begai/ao_somi/3.webp",
+            "img/begai/ao_somi/4.webp",
+            "img/begai/ao_somi/5.webp"
+        ],
+        "BST": ["BST BACK TO SCHOOL", "SALE KHỦNG ĐÂU MÙA", "Đồ mặc đi học bé gái"]
+    },
+    {
+        "ID": "10IG08490622",
+        "Name": "[ Outfit duyên dáng ] Váy tơ voan thêu hoa bé gái",
+        "Price": 449000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/vay_to-voan/1.webp",
+            "img/begai/vay_to-voan/2.webp",
+            "img/begai/vay_to-voan/3.webp",
+            "img/begai/vay_to-voan/4.webp"
+        ],
+        "BST": ["Đồ mặc đi chơi bé gái"]
+    },
+    {
+        "ID": "52IG10070622",
+        "Name": "Bộ sát nách kẻ ô nhún",
+        "Price": 329000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/bo_sat-nach/1.webp",
+            "img/begai/bo_sat-nach/2.webp"
+        ],
+        "BST": ["Đồ hàng ngày bé gái"]
+    },
+    {
+        "ID": "40IG11430622",
+        "Name": "Chân váy trang trí nắp túi",
+        "Price": 189000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/chan_vay/1.webp",
+            "img/begai/chan_vay/2.webp",
+            "img/begai/chan_vay/3.webp",
+            "img/begai/chan_vay/4.webp",
+            "img/begai/chan_vay/5.webp",
+            "img/begai/chan_vay/6.webp"
+        ],
+        "BST": ["BST BACK TO SCHOOL", "Đồ mặc đi chơi bé gái", "Đồ mặc đi học bé gái"]
+    },
+    {
+        "ID": "40IG10350522",
+        "Name": "Chân váy kẻ xếp ly 2",
+        "Price": 189000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/chan_vay-xep/1.webp",
+            "img/begai/chan_vay-xep/2.webp",
+            "img/begai/chan_vay-xep/3.webp",
+            "img/begai/chan_vay-xep/4.webp"
+        ],
+        "BST": ["BST BACK TO SCHOOL", "SALE KHỦNG ĐÂU MÙA", "Đồ hàng ngày bé gái", "Đồ mặc đi học bé gái"]
+    },
+    {
+        "ID": "52IG07990122",
+        "Name": "Pyjama hai dây nhún ngực",
+        "Price": 279000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/pyjama_hai-day/1.webp",
+            "img/begai/pyjama_hai-day/2.webp",
+            "img/begai/pyjama_hai-day/3.webp",
+            "img/begai/pyjama_hai-day/4.webp",
+            "img/begai/pyjama_hai-day/5.webp"
+        ],
+        "BST": ["Đồ hàng ngày bé gái"]
+    },
+    {
+        "ID": "34IG09130522",
+        "Name": "Quần biker short",
+        "Price": 129000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/quan_biker/1.webp",
+            "img/begai/quan_biker/2.webp",
+            "img/begai/quan_biker/3.webp",
+            "img/begai/quan_biker/4.webp"
+        ],
+        "BST": ["Đồ hàng ngày bé gái"]
+    },
+    {
+        "ID": "52IG10590622",
+        "Name": "Set thô phối nơ bé gái",
+        "Price": 289000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/set_tho/1.webp",
+            "img/begai/set_tho/2.webp",
+            "img/begai/set_tho/3.webp",
+            "img/begai/set_tho/4.webp",
+            "img/begai/set_tho/5.webp",
+            "img/begai/set_tho/6.webp"
+        ],
+        "BST": ["BST DREAM IN THE CLOUDS", "Đồ hàng ngày bé gái"]
+    },
+    {
+        "ID": "10IG10840622",
+        "Name": "Váy hai dây kim tuyến ba tầng",
+        "Price": 469000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/vay_hai-day-kim-tuyen/1.webp",
+            "img/begai/vay_hai-day-kim-tuyen/2.webp",
+            "img/begai/vay_hai-day-kim-tuyen/3.webp",
+            "img/begai/vay_hai-day-kim-tuyen/4.webp",
+            "img/begai/vay_hai-day-kim-tuyen/5.webp"
+        ],
+        "BST": ["SALE KHỦNG ĐÂU MÙA"]
+    },
+    {
+        "ID": "10IG07820122",
+        "Name": "Váy hai dây nơ trước",
+        "Price": 269000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/vay_hai-day-no-truoc/1.webp",
+            "img/begai/vay_hai-day-no-truoc/2.webp",
+            "img/begai/vay_hai-day-no-truoc/3.webp",
+            "img/begai/vay_hai-day-no-truoc/4.webp"
+        ],
+        "BST": ["SALE KHỦNG ĐÂU MÙA", "Đồ hàng ngày bé gái"]
+    },
+    {
+        "ID": "10IG07770122",
+        "Name": "Váy họa tiết hai hàng cúc",
+        "Price": 279000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/vay_hoa-tiet/1.webp",
+            "img/begai/vay_hoa-tiet/2.webp",
+            "img/begai/vay_hoa-tiet/3.webp",
+            "img/begai/vay_hoa-tiet/4.webp",
+            "img/begai/vay_hoa-tiet/5.webp",
+            "img/begai/vay_hoa-tiet/6.webp",
+            "img/begai/vay_hoa-tiet/7.webp"
+        ],
+        "BST": ["SALE KHỦNG ĐÂU MÙA", "Đồ mặc đi chơi bé gái"]
+    },
+    {
+        "ID": "10IG10490522",
+        "Name": "Váy sơ mi hai nơ đính",
+        "Price": 289000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/vay_somi/1.webp",
+            "img/begai/vay_somi/2.webp"
+        ],
+        "BST": ["SALE KHỦNG ĐÂU MÙA", "Đồ mặc đi chơi bé gái"]
+    },
+    {
+        "ID": "10IG09270522",
+        "Name": "Váy thô thêu nàng tiên cá",
+        "Price": 349000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/vay_tho/1.webp",
+            "img/begai/vay_tho/2.webp"
+        ],
+        "BST": ["SALE KHỦNG ĐÂU MÙA", "Đồ hàng ngày bé gái", "Đồ mặc đi chơi bé gái"]
+    },
+    {
+        "ID": "11IG07700122",
+        "Name": "Váy thun hai dây buộc nơ vai",
+        "Price": 169000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/vay_thun/1.webp",
+            "img/begai/vay_thun/2.webp",
+            "img/begai/vay_thun/3.webp",
+            "img/begai/vay_thun/4.webp",
+            "img/begai/vay_thun/5.webp",
+            "img/begai/vay_thun/6.webp",
+            "img/begai/vay_thun/7.webp",
+            "img/begai/vay_thun/8.webp",
+            "img/begai/vay_thun/9.webp"
+        ],
+        "BST": ["SALE KHỦNG ĐÂU MÙA", "Đồ hàng ngày bé gái", "Đồ mặc đi chơi bé gái"]
+    },
+    {
+        "ID": "11IG10450522",
+        "Name": "Váy thun hai dây in chữ",
+        "Price": 279000,
+        "Type": "begai",
+        "Image": [
+            "img/begai/vay_thun-hai-day/1.webp",
+            "img/begai/vay_thun-hai-day/2.webp",
+            "img/begai/vay_thun-hai-day/3.webp",
+            "img/begai/vay_thun-hai-day/4.webp"
+        ],
+        "BST": ["BST DREAM IN THE CLOUDS", "Đồ hàng ngày bé gái"]
+    }
+]

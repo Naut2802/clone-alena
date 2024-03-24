@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="img/shortcut_icon.jpeg">
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="productdetails.css">
+    <title>alena</title>
+</head>
+<body ng-app="myApp" ng-controller="mainCtrl">
+    <div ng-include="'header.html'" ng-controller="headerCtrl"></div>
+    
+    <ng-view></ng-view>
+    
+    <div class="to-top">
+        <i class="fa-solid fa-angle-up"></i>
+    </div>
+    
+    <div ng-include="'footer.html'"></div>
+
+    <script>
+        const toTop = document.querySelector('.to-top')
+        const html = document.documentElement
+
+        toTop.addEventListener('click', () => {
+            html.scrollTop = 0
+        })
+
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 100) {
+                toTop.classList.add('active')
+            } else {
+                toTop.classList.remove('active')
+            }
+        })
+    </script>
+
+    
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/08d13f1f8c.js" crossorigin="anonymous"></script>
+    <script src="bootstrap-5.3.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="angularjs/angular.min.js"></script>
+    <script src="angularjs/angularroute.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+        const tabs = document.querySelectorAll('.tabs');
+        const prevButton = document.querySelectorAll('.prev');
+        const nextButton = document.querySelectorAll('.next');
+        let scrollAmount = 100; // Điều chỉnh giá trị này để điều chỉnh khoảng cách lướt
+
+        // Sự kiện khi nhấn nút "prev"
+        prevButton.forEach((value, key) => {
+            value.addEventListener('click', () => {
+                tabs[key].style.transform = `translateX(${scrollAmount}px)`; // Sử dụng transform
+
+                setTimeout(() => {
+                    tabs[key].style.transform = 'translateX(0)'; // Reset transform
+                }, 300); // Đặt thời gian hoàn thành animation
+                tabs[key].scrollLeft -= scrollAmount;
+            });
+        })
+
+        // Sự kiện khi nhấn nút "next"
+        nextButton.forEach((value, key) => {
+            value.addEventListener('click', () => {
+                tabs[key].style.transform = `translateX(-${scrollAmount}px)`; // Sử dụng transform
+
+                setTimeout(() => {
+                    tabs[key].style.transform = 'translateX(0)'; // Reset transform
+                }, 300); // Đặt thời gian hoàn thành animation
+                tabs[key].scrollLeft += scrollAmount;
+            });
+        })
+    </script>
+
+</body>
+</html>

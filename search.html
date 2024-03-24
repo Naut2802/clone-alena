@@ -1,0 +1,60 @@
+<!-- Start Home-banner -->
+<section class="section-banner">
+    <div class="banner">
+        <a href="#"><img src="img/banner4.png" alt=""></a>
+    </div>
+</section>
+
+<section class="bread-crumb">
+    <div class="container">
+        <ul class="breadcrumb py-4 mb-0">
+            <li class="home">
+                <a href="index.html"><span>Trang chủ</span></a>
+                <span class="m-3"><i class="fa-solid fa-angle-right fa-xs"></i></span>
+            </li>
+            <li>
+                <strong>Kết quả tìm kiếm cho "{{searchTxt}}"</strong>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="main-content">
+    <div class="container">
+        <div class="category">
+            <div class="row">
+                <div ng-repeat="p in products" class="col-lg-3 col-md-6 col-6">
+                    <div class="card prod-item border-0 bg-transparent">
+                        <div class="card-body prod-thumbnail p-0">
+                            <img src="{{p.Image[0]}}" alt="" class="card-img-top rounded-bottom-3 rounded-top-3">
+                            <a href="#!productdetails/{{p.ID}}"><button class="btn-view text-center rounded-bottom-3">Tùy chọn</button></a>
+                        </div>
+                        <div class="card-footer border-0 bg-transparent prod-info">
+                            <h3 class="card-title prod-name">
+                                <a href="#!productdetails/{{p.ID}}">{{p.Name}}</a>
+                            </h3>
+                            <span class="card-text prod-price">{{p.Price | number}}₫ <span>{{p.Price | number}}₫</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagenav mt-4 mb-3">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item disabled active">
+                    <a class="page-link border-0">1</a>
+                  </li>
+                  <li class="page-item"><a class="page-link border-0" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link border-0" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link border-0" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link border-0" href="#">5</a></li>
+                  <li class="page-item">
+                    <a class="page-link border-0" href="#"><i class="fa-solid fa-angle-right fa-xs"></i></a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+    </div>
+</section>

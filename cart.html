@@ -1,0 +1,86 @@
+<section class="bread-crumb">
+    <div class="container">
+        <ul class="breadcrumb py-4 mb-0">
+            <li class="home">
+                <a href="#!home"><span>Trang chủ</span></a>
+                <span class="m-3"><i class="fa-solid fa-angle-right fa-xs"></i></span>
+            </li>
+            <li>
+                <strong>Giỏ hàng</strong>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="main-cart-page">
+    <div class="container min-vh-100">
+        <span class="text-secondary text-center w-100 d-block" ng-show="cart.length === 0">Không có sản phẩm nào trong giỏ hàng của bạn</span>
+        <div ng-show="cart.length !== 0">
+            <table class="table">
+                <thead>
+                    <tr class="tr-rounded">
+                        <th scope="col" class="w-50">Thông tin sản phẩm</th>
+                        <th scope="col" class="text-center">Đơn giá</th>
+                        <th scope="col" class="text-center">Số lượng</th>
+                        <th scope="col" class="text-center">Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr ng-repeat="p in cart track by $index">
+                        <td scope="row" class="p-3 row">
+                            <div class="col-2">
+                                <a href="#!productdetails/{{p.product.ID}}">
+                                    <img src="{{p.product.Image[0]}}" alt="">
+                                </a>
+                            </div>
+                            <div class="col-10 align-self-center">
+                                <div class="cart-name">
+                                    <a href="#!productdetails/{{p.product.ID}}" class="cart-prod_name pe-5 fw-lighter text-dark">{{p.product.Name}}</a>
+                                    <p class="d-block opacity-75 mb-0 text-start fw-lighter">
+                                        Màu sắc
+                                    </p>
+                                    <a href="" class="cart-prod_del fw-light text-dark" ng-click="delFromCart($index)">Xóa</a>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="text-center">
+                            <div class="col-12 align-self-center">
+                                <span class="price">{{p.product.Price | number}}đ</span>
+                            </div>
+                        </td>
+                        <td class="text-center">
+                            <div class="col-12 align-self-center">
+                                <div class="input-group mb-3 mt-2">
+                                    <button class="btn p-0 rounded-0" type="button" ng-click="p.amount = p.amount === 1 ? 1 : p.amount - 1">-</button>
+                                    <input type="text" class="form-control text-center text-bg-light" value="{{p.amount}}" disabled style="width: 28px;">
+                                    <button class="btn p-0 rounded-0" type="button" ng-click="p.amount = p.amount + 1">+</button>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="text-center">
+                            <div class="col-12 align-self-center">
+                                <span class="totalPrice_prod">{{p.product.Price * p.amount | number}}đ</span>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row">
+                <div class="col-lg-8"></div>
+                <div class="col-lg-4 col-12">
+                    <div class="row">
+                        <div class="col-6 total-left text-start p-0 ps-3">
+                            Tổng tiền: 
+                        </div>
+                        <div class="col-6 total-right text-end p-0 pe-3">
+                            <span class="total-price">{{totalPrice | number}}đ</span>
+                        </div>
+                    </div>
+                    <div class="total-pay mt-4">
+                        <button class="btn w-100 text-center text-white">Thanh toán</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

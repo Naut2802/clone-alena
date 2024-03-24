@@ -1,0 +1,375 @@
+<!-- Start Home-Slider -->
+<section class="section-slider">
+    <swiper-container pagination="true">
+        <swiper-slide>
+            <a href="#">
+                <img src="img/slider1.webp" alt="" class="w-100 h-100 object-fit-cover">
+            </a>
+        </swiper-slide>
+        <swiper-slide>
+            <a href="#">
+                <img src="img/slider1.webp" alt="" class="w-100 h-100 object-fit-cover">
+            </a>
+        </swiper-slide>
+    </swiper-container>
+</section>
+<!-- End Home-Slider -->
+
+<!-- Start Home-Service -->
+<section class="section-service">
+    <div class="home-service container">
+        <swiper-container slides-per-view="4">
+            <swiper-slide class="service-block">
+                <span><img src="img/service-1.png" alt=""></span>
+                <h3>HỖ TRỢ BẢO HÀNH</h3>
+                <p>Đổi, sửa đồ tại tất cả store</p>
+            </swiper-slide>
+            <swiper-slide class="service-block">
+                <span><img src="img/service-2.png" alt=""></span>
+                <h3>KHÁCH HÀNG VIP</h3>
+                <p>Ưu đãi dành cho khách hàng VIP</p>
+            </swiper-slide>
+            <swiper-slide class="service-block">
+                <span><img src="img/service-3.png" alt=""></span>
+                <h3>THANH TOÁN COD</h3>
+                <p>Thanh toán khi nhận hàng (COD)</p>
+            </swiper-slide>
+            <swiper-slide class="service-block">
+                <span><img src="img/service-4.png" alt=""></span>
+                <h3>MIỄN PHÍ GIAO HÀNG</h3>
+                <p>Miễn phí ship với đơn hàng > 498k</p>
+            </swiper-slide>
+        </swiper-container>
+    </div>
+</section>
+<!-- End Home-Service -->
+
+<section class="section_product_hot pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-4 col-md-6">
+                <div class="block-title">
+                    <h2>Hàng mới về</h2>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-8 col-md-6 col-12 tab-product pt-4">
+                <div class="tab-block">
+                    <div class="tab-ul">
+                        <ul class="tabs">
+                            <li class="tab-item pt-2 current">
+                                <span class="">Đồ mặc ở nhà bé trai</span>
+                            </li>
+                            <li class="tab-item pt-2">
+                                <span class="">Đồ mặc đi học bé trai</span>
+                            </li>
+                            <li class="tab-item pt-2">
+                                <span class="">Đồ mặc đi chơi bé trai</span>
+                            </li>
+                        </ul>
+                        <a class="button prev mt-2"><i class="fa-solid fa-arrow-left"></i></a>
+                        <a class="button next mt-2"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="prod-list swiper hot-sale">
+                    <swiper-container class="swiper-wrapper" slides-per-view="5" space-between="20">
+                        <swiper-slide class="swiper-slide card prod-item border-0 bg-transparent" ng-repeat="p in products | BST: 'Đồ mặc ở nhà bé trai'">
+                            <div class="card-body prod-thumbnail p-0">
+                                <img src="{{p.Image[0]}}" alt="" class="card-img-top rounded-bottom-3 rounded-top-3">
+                                <a href="#!productdetails/{{p.ID}}"><button class="btn-view text-center rounded-bottom-3">Tùy chọn</button></a>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent prod-info">
+                                <h3 class="card-title prod-name">
+                                    <a href="#!productdetails/{{p.ID}}">{{p.Name}}</a>
+                                </h3>
+                                <span class="card-text prod-price">{{p.Price | number}}₫</span>
+                            </div>
+                        </swiper-slide>
+                    </swiper-container>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_product_hot pt-5 bg-body">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-4 col-md-6">
+                <div class="block-title">
+                    <h2>Hàng mới về</h2>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-8 col-md-6 col-12 tab-product pt-4">
+                <div class="tab-block">
+                    <div class="tab-ul">
+                        <ul class="tabs">
+                            <li class="tab-item pt-2 current">
+                                <span class="">BST BACK TO SCHOOL</span>
+                            </li>
+                            <li class="tab-item pt-2">
+                                <span class="">BST DREAM IN THE CLOUDS</span>
+                            </li>
+                            <li class="tab-item pt-2">
+                                <span class="">SALE KHỦNG ĐẦU MÙA</span>
+                            </li>
+                        </ul>
+                        <a class="button prev mt-2"><i class="fa-solid fa-arrow-left"></i></a>
+                        <a class="button next mt-2"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 col-12 banner">
+                <a href="#">
+                    <img src="/asm/img/banner.png" alt="" class="img-fluid rounded-4">
+                </a>
+            </div>
+
+            <div class="col-md-7 col-12">
+                <div class="bst_back-to-school">
+                    <div class="swiper swiper-back-to-school">
+                        <swiper-container class="swiper-wrapper" slides-per-view="3" space-between="20" grid-rows="2" grid-fill="row">
+                            <swiper-slide class="swiper-slide card prod-item border-0 bg-transparent" ng-repeat="p in products | BST: 'BST BACK TO SCHOOL'">
+                                <div class="card-body prod-thumbnail p-0">
+                                    <img src="{{p.Image[0]}}" alt="" class="card-img-top rounded-bottom-3 rounded-top-3">
+                                    <a href="#!productdetails/{{p.ID}}"><button class="btn-view text-center rounded-bottom-3">Tùy chọn</button></a>
+                                </div>
+                                <div class="card-footer border-0 bg-transparent prod-info">
+                                    <h3 class="card-title prod-name">
+                                        <a href="#!productdetails/{{p.ID}}">{{p.Name}}</a>
+                                    </h3>
+                                    <span class="card-text prod-price">{{p.Price | number}}₫</span>
+                                </div>
+                            </swiper-slide>
+                        </swiper-container>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_product_sale">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="block-title">
+                    <h2><a href="#">SALE ĐỒNG GIÁ - ĐỪNG LO VỀ GIÁ</a></h2>
+                </div>
+            </div>
+            <div class="col-lg-12 banner mb-4">
+                <a href="#">
+                    <img src="img/banner2.png" alt="" class="rounded-3 w-100">
+                </a>
+            </div>
+            <div class="col-lg-12 prod-list">
+                <div class="swiper swiper-product-sale">
+                    <swiper-container class="swiper-wrapper" slides-per-view="5" space-between="30">
+                        <swiper-slide class="swiper-slide card prod-item border-0 bg-transparent" ng-repeat="p in products | limitTo: 8">
+                            <div class="card-body prod-thumbnail p-0">
+                                <img src="{{p.Image[0]}}" alt="" class="card-img-top rounded-bottom-3 rounded-top-3">
+                                <a href="#!productdetails/{{p.ID}}"><button class="btn-view text-center rounded-bottom-3">Tùy chọn</button></a>
+                            </div>
+                            <div class="card-footer border-0 bg-transparent prod-info">
+                                <h3 class="card-title prod-name">
+                                    <a href="#!productdetails/{{p.ID}}">{{p.Name}}</a>
+                                </h3>
+                                <span class="card-text prod-price">{{p.Price | number}}₫ <span>{{p.Price | number}}₫</span></span>
+                            </div>
+                        </swiper-slide>
+                    </swiper-container>
+                </div>
+
+                <div class="btn-view_all text-center mt-3">
+                    <a href="category.html" class="py-3 rounded-4">
+                        Xem tất cả
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section_product_hot pt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5 col-lg-4 col-md-6">
+                <div class="block-title">
+                    <h2>Sản phẩm giá tốt</h2>
+                </div>
+            </div>
+            <div class="col-xl-7 col-lg-8 col-md-6 col-12 tab-product pt-4">
+                <div class="tab-block">
+                    <div class="tab-ul">
+                        <ul class="tabs">
+                            <li class="tab-item pt-2 current">
+                                <span class="">Đồ hàng ngày bé gái</span>
+                            </li>
+                            <li class="tab-item pt-2">
+                                <span class="">Đồ mặc đi chơi bé gái</span>
+                            </li>
+                            <li class="tab-item pt-2">
+                                <span class="">Đồ mặc đi học bé gái</span>
+                            </li>
+                        </ul>
+                        <a class="button prev mt-2"><i class="fa-solid fa-arrow-left"></i></a>
+                        <a class="button next mt-2"><i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 col-12 banner">
+                <a href="#">
+                    <img src="/asm/img/banner3.png" alt="" class="img-fluid rounded-4">
+                </a>
+            </div>
+
+            <div class="col-md-7 col-12">
+                <div class="bst_back-to-school">
+                    <div class="swiper swiper-back-to-school">
+                        <swiper-container class="swiper-wrapper" slides-per-view="3" space-between="20" grid-rows="2" grid-fill="row">
+                            <swiper-slide class="swiper-slide card prod-item border-0 bg-transparent" ng-repeat="p in products | BST: 'Đồ hàng ngày bé gái'">
+                                <div class="card-body prod-thumbnail p-0">
+                                    <img src="{{p.Image[0]}}" alt="" class="card-img-top rounded-bottom-3 rounded-top-3">
+                                    <a href="#!productdetails/{{p.ID}}"><button class="btn-view text-center rounded-bottom-3">Tùy chọn</button></a>
+                                </div>
+                                <div class="card-footer border-0 bg-transparent prod-info">
+                                    <h3 class="card-title prod-name">
+                                        <a href="#!productdetails/{{p.ID}}">{{p.Name}}</a>
+                                    </h3>
+                                    <span class="card-text prod-price">{{p.Price | number}}₫</span>
+                                </div>
+                            </swiper-slide>
+                        </swiper-container>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-blog">
+    <div class="container">
+        <div class="block-title">
+            <h2><a href="#">TIN TỨC THỜI TRANG</a></h2>
+        </div>
+        <div class="row block-blog">
+            <div class="item col-lg-4 col-12">
+                <div class="item-content">
+                    <div class="blog-thumb">
+                        <a href="#" class="thumb">
+                            <img src="img/blog-thumb_2.jpg" alt="" class="rounded-3">
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="title">
+                            <a href="#">Would You Match Outfits With Your Significant Other?</a>
+                        </h3>
+                        <div class="row info">
+                            <div class="col-3 time-post pe-0">
+                                <span><i class="fa-regular fa-user"></i> Cafein Team</span>
+                            </div>
+                            <span class="col-1 text-center w-auto">|</span>
+                            <div class="col-5 time-post ps-0">
+                                <span><i class="fa-regular fa-clock"></i> Ngày12/10/2022</span>
+                            </div>
+                        </div>
+                        <p class="text-content my-2">
+                            Fashion in relationships can be a funny thing. Maybe you love your significant other’s style, even
+                        </p>
+                        <a href="#" class="view-more">
+                            Xem thêm <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-lg-4 col-12">
+                <div class="item-content">
+                    <div class="blog-thumb">
+                        <a href="#" class="thumb">
+                            <img src="img/blog-thumb_1.jpg" alt="" class="rounded-3">
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="title">
+                            <a href="#">One Dapper Street</a>
+                        </h3>
+                        <div class="row info">
+                            <div class="col-3 time-post pe-0">
+                                <span><i class="fa-regular fa-user"></i> Cafein Team</span>
+                            </div>
+                            <span class="col-1 text-center w-auto">|</span>
+                            <div class="col-5 time-post ps-0">
+                                <span><i class="fa-regular fa-clock"></i> Ngày12/10/2022</span>
+                            </div>
+                        </div>
+                        <p class="text-content my-2">
+                            “What’s this all about?” You might ask. Well, here it goes. This website is a way for me to share a
+                        </p>
+                        <a href="#" class="view-more">
+                            Xem thêm <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="item col-lg-4 col-12">
+                <div class="item-content">
+                    <div class="blog-thumb">
+                        <a href="#" class="thumb">
+                            <img src="img/blog-thumb_2.jpg" alt="" class="rounded-3">
+                        </a>
+                    </div>
+                    <div class="blog-content">
+                        <h3 class="title">
+                            <a href="#">What My Boyfriend Wore</a>
+                        </h3>
+                        <div class="row info">
+                            <div class="col-3 time-post pe-0">
+                                <span><i class="fa-regular fa-user"></i> Cafein Team</span>
+                            </div>
+                            <span class="col-1 text-center w-auto">|</span>
+                            <div class="col-5 time-post ps-0">
+                                <span><i class="fa-regular fa-clock"></i> Ngày12/10/2022</span>
+                            </div>
+                        </div>
+                        <p class="text-content my-2">
+                            Weirdly enough, there is a lot of debate out there regarding whether your socks should match your
+                        </p>
+                        <a href="#" class="view-more">
+                            Xem thêm <i class="fa-solid fa-arrow-right-long"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-brand">
+    <div class="container">
+        <div class="swiper swiper-brand">
+            <swiper-container class="swiper-wrapper text-center" slides-per-view="6" space-between="30">
+                <swiper-slide class="swiper-slide">
+                    <a href=""><img src="img/brand_chanel.jpg" alt=""></a>
+                </swiper-slide>
+                <swiper-slide class="swiper-slide">
+                    <a href=""><img src="img/brand_lv.jpg" alt=""></a>
+                </swiper-slide>
+                <swiper-slide class="swiper-slide">
+                    <a href=""><img src="img/brand_givenchy.jpg" alt=""></a>
+                </swiper-slide>
+                <swiper-slide class="swiper-slide">
+                    <a href=""><img src="img/brand_balenciaga.jpg" alt=""></a>
+                </swiper-slide>
+                <swiper-slide class="swiper-slide">
+                    <a href=""><img src="img/brand_hermes.jpg" alt=""></a>
+                </swiper-slide>
+                <swiper-slide class="swiper-slide">
+                    <a href=""><img src="img/brand_syl.jpg" alt=""></a>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+    </div>
+</section>
